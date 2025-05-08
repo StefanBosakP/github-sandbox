@@ -4,7 +4,7 @@ services:
   runner:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.ubuntu
     restart: always
     environment:
       - REPO
